@@ -1,1 +1,0 @@
-.pagination a.button{color:var(--color-fg-alt)}.pagination .pagination-next{align-self:flex-end}.pagination .pagination-page-number{align-self:center;text-align:center;flex-shrink:2;font-weight:700}.pagination li{margin-right:0}
