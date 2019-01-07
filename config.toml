@@ -188,6 +188,8 @@ enableRobotsTXT = true
     #hsts = true
     #root = "/var/www/example.com
 
+
+    
 ## Enable/disable sidebar widgets
 [params.sidebar]
     ## Specify the order you want sidebar widgets to appear in.
@@ -200,7 +202,8 @@ enableRobotsTXT = true
         #"patreon",
         ## Enable a widget with links to multiple methods of support
         ## See also: https://bluestnight.com/docs/midnight/users/sidebar/support/
-        #"support",
+        #"support",        
+        "twitterfeed",
         ## Enable a search field
         ## See also: https://bluestnight.com/docs/midnight/users/sidebar/search/
         "search",
@@ -220,6 +223,12 @@ enableRobotsTXT = true
     #[params.sidebar.patreon]
         #username = "username"
 
+    [params.sidebar.twitterfeed]
+        path = "sidebar/twitterfeed"
+        [params.sidebar.twitterfeed.partial]
+            path = "sidebar/twitterfeed/widget.html"
+            cache = true
+        
 ## Define output formats for different kinds of pages
 [outputs]
     ## CSS is required in order for Midnight to generate your stylesheet
