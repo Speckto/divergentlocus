@@ -207,7 +207,7 @@ enableRobotsTXT = true
         "twitterfeed",
         ## Enable a search field
         ## See also: https://bluestnight.com/docs/midnight/users/sidebar/search/
-        "search",
+        #"search",
         ## Enable a recent articles list. Can be configured to use a custom section
         ## See also: https://bluestnight.com/docs/midnight/users/sidebar/recent-posts/
         "recent",
