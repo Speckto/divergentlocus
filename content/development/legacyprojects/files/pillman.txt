@@ -1,0 +1,97 @@
+            ==========================
+                      Pillman
+                    Readme File
+            ==========================
+
+-----------------
+Table of Contents
+-----------------
+1. Welcome
+
+2. System Requirements
+
+3. Installation
+
+4. Contact Information & Other bits
+
+5. Legal stuff
+
+
+
+
+1. Welcome
+==================================================================
+Welcome to pillman!
+The object of this game is to collect all the pills whilst avoiding
+all the hungry ghosts! However you are not alone in your quest. The
+great Jin has placed "Power Pills" on within each maze. Upon eating 
+one you become all powerful and no longer fear the ghosts!
+
+Additionally this game includes a level editor "pillEd.exe". It can
+be found in the "\editor\" subfolder.
+
+2. System Requirements
+==================================================================
+Note: These system requirements are a "best guess" estimate. The 
+program has only been tested on a limited number of system, and
+therefore may not be compatible with all system configurations.
+
+Recommended System Requirements:
+Processor        :  AMD K6-2/Intel Pentium running at 333Mhz
+RAM              :  64MB (Recommend as much as possible)
+Operating System :  Windows 98/ME/2K/NT/XP
+Sound		 :  None required
+Graphics	 :  Must be capable of 800x600 High Colour mode
+
+This product has only been tested on the following Operating Systems:
+- Windows 2000
+- Windows 98 SE
+
+
+
+3. Installation
+==================================================================
+You will need to use a program such as WinZip (R) to extract the
+.ZIP file containing the program to a folder, then run 
+the executable file.
+Please note all files in the archive must be extracted if the 
+program is to run correctly. You must use the option "Use Folder 
+Names" otherwise the program will complain it cannot find files.
+
+
+4. Contact Information & Other bits
+==================================================================
+So who wrote this peice of software you may be asking.
+The answer is quite simple: Me. Neil Potter.
+
+Ths program was written in Delphi. Yes I know C would have been 
+faster, but delphi is MUCH better when it comes do designing good 
+interfaces quickly.
+
+This program was created in the following computer
+AMD Ahtlon XP 1800+ (1.5Ghz)
+128MB Ram
+20.5GB Hard disc
+SB Live!
+Creative GeForce 256 DDR
+And it runs wonderfully.
+
+Hope you enjoy the program,
+
+Specto
+
+5. Legal
+==================================================================
+This program is distributed as freeware. You may re-distribute it 
+so long as the distribution archive has not been modified, and you 
+do not charge for the redistribution. You may charge a postage fee
+if, however his should be on a non-profit basis.
+
+You may not disassemble or decomplile this program. If you really 
+want to know how it is done then email me.
+
+The software is provided "as is" and you use it at your own risk
+therefore I am not responsible for any problems, damage or data 
+loss caused as a result of using or installing this software.
+
+WinZip is a trademark of WinZip Computing, Inc.

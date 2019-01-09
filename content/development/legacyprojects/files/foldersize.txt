@@ -1,0 +1,217 @@
+           ==========================
+               Folder Size - v 1.20
+                    Readme File
+            ==========================
+
+-----------------
+Table of Contents
+-----------------
+1. Welcome
+
+2. System Requirements
+
+3. Installation
+
+4. The Interface
+
+5. Frequently Asked Questions (FAQ)
+
+6. Contact Information & Other bits
+
+7. Legal stuff
+
+8. Version History
+
+
+
+1. Welcome
+==================================================================
+
+Folder Size is a utility to aid in the process of file management.
+
+Most modern PCs have hard drives in the region of 60GB 
+(Giga-bytes) or more, which at the point of purchase seems ample 
+for most needs. However users usually discover that after a period 
+the system starts to slow down (if your using windows), and that 
+60GB of disk space rapidly dwindles to a paltry 2GB or so which 
+you know you should leave free to allow windows to run for a a 
+few hours before it does an imitation of a man with no legs and 
+falls over.
+
+Folder size will scan your hard drive(s) and produce statistics 
+about folder and file usage on the drive. This information can then 
+be used to produce charts and tables, allowing you to decide what
+parts of your hard drive may need trimming down to size.
+
+It will not however actually allow you to delete files or folders
+from within the program.
+
+
+
+2. System Requirements
+==================================================================
+Note: These system requirements are a "best guess" estimate. The 
+program has only been tested on a limited number of system, and
+therefore may not be compatible with all system configurations.
+
+Recommended System Requirements:
+Processor        :  AMD K6-2/Intel Pentium running at 333Mhz
+RAM              :  64MB (Recommend as much as possible)
+Operating System : Windows 98/ME/2K/NT/XP
+Sound		 : None required
+Graphics	 : Must be capable of 640x480 High Colour mode
+
+This product has only been tested on the following Operating Systems:
+- Windows 2000
+- Windows 98 SE
+
+
+
+3. Installation
+==================================================================
+You will need to use a program such as WinZip (R) to extract the
+.ZIP file containing the program to a folder, then run 
+FolderSize.exe
+-- But I guess you probably guessed that as your reading this 
+   file!
+
+
+
+4. The Interface
+==================================================================
+Once the program loads you are presented with a form which is 
+divided into several parts. Across the top of the screen runs the 
+tool bar, with a drop down list of all the available disk drives.
+
+When you select one of these drives the program will scan the given 
+drive folders and files, and display gathered information in the 
+box below called the Tree View.
+
+The Tree view gives and explorer-style view of the hard drive, with 
+several additions.
+a) The coloured bar indicates the percentage of the containing 
+   folder that folder/File takes up
+b) The number indicates the exact size of the file
+c) Information about files in the folder are consolidated into one 
+   item "[Files]". This will be coloured red if the program was 
+   unable to obtain size information on one or more objects in this 
+   entry. This will mean that the quoted size may not be accurate.
+
+Clicking an item in the Tree View will be produce one of the 
+following depending on which toolbar button is selected:
+a) A detailed list of each folder, including a more detailed 
+   description of each file.
+b) A graph of the information gathered in (a)
+
+Graphs can be printed, and saved as bitmap files. They can also be 
+copied to the clipboard as an image.
+
+The Table list can be saved out in HTML format which can be viewed 
+in any modern Web Browser.
+
+
+
+5. Frequently Asked Questions (FAQ)
+==================================================================
+Q. I use other programs to display when a file was last accessed,
+   will Folder Size affect this program?
+A. Unfortunately, yes. Whenever the program access a drive to 
+   determine disk space used by each folder, it must retrieve the
+   file size of each file within that folder. As a result the 
+   operating system updates the "Last Accessed" field of the file
+   attributes.
+
+Q. The program display the message in the status bar
+   "Please wait calculating folder sizes..." and then appears to
+   lock up.
+A. Depending on the size of your hard drive, this may take a large
+   amount of time. Scanning 11,000 files taking up 10.2GB on an
+   ATA 66 hard drive takes about 2-3 seconds under Windows 98 SE.
+   If you do think it has crashed, check the hard drive LED (usually
+   displayed on the front of your computers case). If this is 
+   flashing, or solid on then the program probably has NOT crashed.
+
+Q. I get an "Out Of Memory" when I select a drive from the drop down
+   list box error. What going on?
+Q. I get an error message saying that it ran out of memory
+A. The first time you select a drive in the list box, the program will
+   scan that drive and calculate sizes, which take up memory. When 
+   you select a different drive this data is retained (until program
+   exit) for quick access. If you have many drives, the system may 
+   run out of memory. Try quitting other programs, to free up system
+   memory, or exit and reload the program.
+   Alternatively, from the "Options" menu select "Low Memory Drive
+   Scans". This should fix the problem.
+
+Q. After trying the above, I still get the same error.
+A. All I can suggest is trying to free more memory, by quitting
+   background programs, including those listed at the bottom
+   right of the task bar.
+Q. I've found a bug!
+A. Oh dear. Email me (see contact information)
+
+
+6. Contact Information & Other bits
+==================================================================
+So who wrote this peice of software you may be asking.
+The answer is quite simple: Me. Specto
+
+I am writing this during my 2003 easter break. I have an
+Industrial Placement interview with IBM in 3 days; and in
+1 week and 3 days I start my Part 2 exams for my degree in
+Computer Science.
+
+Ths program was written in Delphi. Yes I know C would have been 
+faster, but delphi is MUCH better when it comes do designing good 
+interfaces quickly.
+
+This program was created in the following computer
+AMD Ahtlon XP 1800+ (1.5Ghz)
+128MB Ram
+20.5GB Hard disc
+SB Live!
+Creative GeForce 256 DDR
+And it runs wonderfully.
+
+Hope you enjoy the program,
+Specto
+
+7. Legal
+==================================================================
+This program is distributed as freeware. You may re-distribute it 
+so long as the distribution archive has not been modified, and you 
+do not charge for the redistribution. You may charge a postage fee
+if, however his should be on a non-profit basis.
+
+You may not disassemble or decomplile this program. If you really 
+want to know how it is done then email me.
+
+The software is provided "as is" and you use it at your own risk
+therefore I am not responsible for any problems, damage or data 
+loss caused as a result of using or installing this software.
+
+WinZip is a trademark of WinZip Computing, Inc.
+
+
+
+8. Version History
+==================================================================
+
+1.2.0.0 - Fixed bug where if you ran out of member during a drive 
+          scan no memory was freed
+	- Added a "status window" during drive scanning with an abort button
+1.1.0.0 - Fixed bug with Drives list box being disabled after 
+          getting a default file view
+        - Corrected display error for items in the tree view
+        - Added Status update when mouse hovers entry on pie chart
+        - Added buttons to allow/disallow merging of entried making
+          up less than 1% of the given folder.
+
+1.0.1.0 - Added ability to explore or execute files from Folder Detail 
+          view
+        - Made right click for details the default. On slow machines
+          calculating a folder's size when only expanding tree was
+          annoying.
+
+1.0.0.0 - First Release
+        

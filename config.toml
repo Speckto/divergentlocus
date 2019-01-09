@@ -24,6 +24,7 @@ languageCode = "en-gb"
 title = "Divergent Locus"
 baseurl = "http://www.divergentlocus.co.uk"
 theme = "Midnight"
+DefaultContentLanguage = "en"
 
 ## Allow the use of GitHub-style code fences
 PygmentsCodeFences = true

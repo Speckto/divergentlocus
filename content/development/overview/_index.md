@@ -1,8 +1,10 @@
 +++
-title = "Development"
-date = "2019-01-05"
-menu = "main"
-weight = 4
+title = "Development: Overview"
+linktitle = "Overview"
+[menu.main]
+  parent = "development"
+  weight = 1
+  identifier = "development-overview"
 +++
 
 I have been using computers for many years as a hobby and have been working a software developer for 13 years or so.
