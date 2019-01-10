@@ -180,6 +180,7 @@ enableRobotsTXT = true
 ## See also: https://bluestnight.com/docs/midnight/users/site/social-icons/
 [params.social]
     github = "Speckto"
+    gitlab = "Speckto"
     twitter = "Specktoo"
 
 ## Options used while generating server configuration files.
